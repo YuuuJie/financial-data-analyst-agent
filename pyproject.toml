@@ -1,0 +1,15 @@
+[project]
+name = "financial-data-analyst-agent"
+version = "0.1.0"
+description = "AI-powered financial data analysis agent for natural-language querying and actionable insights."
+authors = [
+    {name = "Jie Yu",email = "131651493+YuuuJie@users.noreply.github.com"},
+]
+dependencies = ["fastapi>=0.141.1", "uvicorn[standard]>=0.52.1"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
